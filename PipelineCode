@@ -1,0 +1,5 @@
+class Pipeline{
+  public static void main(String[] args){
+    println("Hello, from first Pipeline");
+  }
+}

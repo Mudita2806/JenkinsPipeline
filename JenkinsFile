@@ -1,16 +1,16 @@
 pipeline{
     agent any
-
     stages{
          stage('Welcome'){
             steps{
                 git 'https://github.com/Mudita2806/JenkinsPipeline'
             }
+          }
          stage('Maven Build'){
             steps{
                 sh "mvn clean package"
             }
          }
-        }
-    }
+     }
+    
 }
